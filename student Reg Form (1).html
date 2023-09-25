@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        th{border: 2px double rgb(250, 247, 247);text-align: center;padding: 10px;font-style: oblique;font-size: larger;}
+        form{margin: 27px;}
+        label{display: inline-block;width: 9%;}
+        .input-row {
+    display: flex;
+    gap: 20px; display: inline-block;
+    }
+    td {padding: 5px;font-size: smaller;}
+    .mm{width: 35%;}
+
+
+    </style>
+    <title>docuemnt</title>
+</head>
+<body style="background-color: rgb(62, 74, 187);color: azure;">
+    <center><table>
+        <th><b>Student Registration form</b></th>
+    </table></center>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your fname">
+        <br><br>
+        <label for="lname">Last  Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your lname">
+        <br><br>
+        <div>
+        <label for="">Date of Birth</label>
+            <select>
+                <option selected disabled>Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <select>
+                <option selected disabled>Month</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <select>
+                <option selected disabled>Year</option>
+                <option>1991</option>
+                <option>1992</option>
+                <option>1993</option>
+                <option>1994</option>
+                <option>1995</option>
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+                <option>1999</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+            </select>
+    </div><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="sample@example.com">
+        <br>
+        <br>
+
+        <label for="pno">Phone Number:</label>
+        <input type="tel" name="pno" id="pno" placeholder="03xxxxxxxxx">
+        <br><br>
+        <div class="mm">
+        Gender: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        
+            <input type="radio" name="gender" id="1">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="2">
+            <label for="gender">Female</label><br><br>
+            </div>
+
+        <label for="address">Address:</label><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea name="address" id="address" cols="40" rows="6" placeholder="Street-House-Road"></textarea><br><br>
+
+        <label for="bg">Blood Group:</label>
+        <select name="bg" id="bg">
+            <option value="o+">O<sup>+</sup> Group</option>
+            <option value="o-">O <sup>-</sup> Group</option>
+            <option value="a+">A<sup>+</sup> Group</option>
+            <option value="a-">A <sup>-</sup> Group</option>
+            <option value="b+">B<sup>+</sup> Group</option>
+            <option value="b-">B <sup>-</sup> Group</option>
+        </select>
+        <br><br>
+        <div><label for="city">City</label>
+        <input type="text" name="city" id="city" placeholder="Enter your city"></div><br>
+        <div><label for="pcode">Pin Code</label>
+        <input type="text" name="pcode" id="pcode" placeholder="Enter pin code"></div>
+        <br>
+
+        <div class="input-row" style="display: inline-block;">
+        <label for="hobies">Hobies</label>
+            <input type="checkbox" name="c" id="c">
+            <label for="c">Drawing</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="c++" id="c++">
+            <label for="c++">Singing</label>
+            <input type="checkbox" name="java" id="java">
+            <label for="java">Dancing</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="ai" id="ai">
+            <label for="ai">Sketching</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="ml" id="ml">
+            <label for="ml">others</label>
+    </div>
+    <br><br>
+    <div>
+          <table>
+            <tr>
+                <td rowspan="5" style="font-size: larger;padding-bottom: 137px;">Qualification</td>
+                <td>S.No</td>
+                <td>Examination</td>
+                <td style="text-align: center;">Board</td>
+                <td style="text-align: center;">Percentage</td>
+                <td style="text-align: center;">Year of passing</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+        </table>
+    </div><br>
+    <div class="mm">
+        Courses <br> Applied for &nbsp; &nbsp;
+        <input type="radio" name="course" id="bca">
+            <label for="course">BCA</label>
+            <input type="radio" name="course" id="b.com">
+            <label for="course">B.Com</label> &nbsp; &nbsp; &nbsp;
+            <input type="radio" name="course" id="b.sc">
+            <label for="course">B.Sc</label>
+            <input type="radio" name="course" id="b.a">
+            <label for="course">B.A</label>
+    </div>
+    <br><br><br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="submit"> &nbsp;<input type="Reset" value="Reset">
+    </form>
+</body>
+</html>

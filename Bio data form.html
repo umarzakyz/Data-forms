@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html,
+      body {
+        min-height: 100%;
+        height: 100%;
+      }
+      body {
+        background-color: thistle;
+      }
+      .main {
+        background-color: white;
+        width: 70%;
+        height: 100%;
+        margin-left: 17%;
+      }
+      .row {
+        width: 100%;
+        padding: 5%;
+      }
+      .label {
+        float: left;
+        width: 40%;
+        padding: 5px;
+        font-size: 20px;
+        display: inline;
+      }
+      .input {
+        float: left;
+        width: 48%;
+        font-size: 20px;
+        display: inline;
+        vertical-align: middle;
+      }
+      .input-feild {
+        width: 280px;
+        height: 20px;
+        padding: 10px;
+        border: 2px solid cornflowerblue;
+        border-radius: 10px;
+      }
+      .radiobu {
+        width: 280px;
+        height: 40px;
+        padding: 10px;
+        border: 2px solid cornflowerblue;
+        border-radius: 10px;
+      }
+      .bu {
+        float: left;
+        width: 20%;
+        padding: 2%;
+        margin-left: 5%;
+        background-color: white;
+        font-size: 20px;
+        border: 2px solid cornflowerblue;
+      }
+      .row1 {
+        margin-left: 20%;
+        margin-top: 5%;
+      }
+      h1 {
+        text-align: center;
+        color: violet;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <form action="">
+        <h1>Bio Data Form</h1>
+        <div class="row">
+          <div class="label">
+            <label for="">Enter your Name:</label>
+          </div>
+          <div class="input">
+            <input
+              type="text"
+              placeholder="Your Name Here"
+              class="input-feild"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="label">
+            <label for="">Enter Your Email:</label>
+          </div>
+          <div class="input">
+            <input
+              type="email"
+              placeholder="Your Email Here"
+              class="input-feild"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="label">
+            <label for="">Enter Your Father Name:</label>
+          </div>
+          <div class="input">
+            <input
+              type="text"
+              placeholder="Your Father Name Here"
+              class="input-feild"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="label">
+            <label for="">Enter your CNIC:</label>
+          </div>
+          <div class="input">
+            <input
+              type="text"
+              placeholder="Your CNIC here"
+              class="input-feild"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="label">
+            <label for="">Enter Your Department:</label>
+          </div>
+          <div class="input">
+            <select class="dropdown">
+              <option selected disabled>Enter your Department</option>
+              <option>IT</option>
+              <option>HR</option>
+              <option>MANAGEMENT</option>
+              <option>TRAINER</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="label">
+            <label for="">ENter Your Gender:</label>
+          </div>
+          <div class="input">
+            <span class="radiobu"
+              ><input type="radio" name="radiob" /><label for=""
+                >Male</label
+              ></span
+            >
+            <span class="radiobu"
+              ><input type="radio" name="radiob" /><label for=""
+                >Female</label
+              ></span
+            >
+            <span class="radiobu"
+              ><input type="radio" name="radiob" /><label for=""
+                >Other</label
+              ></span
+            >
+          </div>
+        </div>
+        <div class="row1">
+          <input type="submit" value="submit" class="bu" />
+
+          <input type="reset" value="reset" class="bu" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
